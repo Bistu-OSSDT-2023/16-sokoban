@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/blackHoleImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ImageView
+        android:id="@+id/playerImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/kong" />
+
+    <ImageView
+        android:id="@+id/boxImageView"
+        android:src="@drawable/box"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="250dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:id="@+id/wallImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/qiangti" />
+
+    <Button
+        android:id="@+id/upButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="▲"
+        android:textSize="30sp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="550dp"/>
+
+    <Button
+        android:id="@+id/downButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="▼"
+        android:textSize="30sp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="650dp"/>
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◄"
+        android:textSize="30sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="600dp"/>
+
+    <Button
+        android:id="@+id/rightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="►"
+        android:textSize="30sp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="600dp"/>
+</RelativeLayout>
