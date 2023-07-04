@@ -1,0 +1,166 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:text="注意： 由于空白不能分离超过一格\n 所以当玩家移动白时空会自动找到玩家" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="400dp"
+        app:srcCompat="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/blackHoleImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/chengbao"
+        />
+
+    <ImageView
+        android:id="@+id/playerImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/kong" />
+
+    <ImageView
+        android:id="@+id/boxImageView"
+        android:src="@drawable/box"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="250dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <ImageView
+        android:id="@+id/wallImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/wallImageView1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/qiangti" />
+
+    <ImageView
+        android:id="@+id/wallImageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/qiangti" />
+
+    <Button
+        android:id="@+id/upButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="▲"
+        android:textSize="30sp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="550dp"/>
+
+    <Button
+        android:id="@+id/downButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="▼"
+        android:textSize="30sp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="650dp"/>
+
+    <Button
+        android:id="@+id/leftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="◄"
+        android:textSize="30sp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="600dp"/>
+
+    <Button
+        android:id="@+id/rightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="►"
+        android:textSize="30sp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="600dp"/>
+
+</RelativeLayout>
