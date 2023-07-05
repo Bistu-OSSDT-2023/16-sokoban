@@ -1,0 +1,6 @@
+你需要的软件有：Android Studio github desktop,并注册一个GitHub账号。
+1.进入GitHub后在右上角搜索框内输入：16-sokoban 点击Bistu-OSSDT-2023/16-sokoban进入到我们的主页面
+2.在主文件右上角Code处选择Open with Github Desktop.在GitHub desktop中选择Open with Android studio.
+3.在Android studio中打开后，点击左上角的File，选择Open，点击16-sokoban文件下的Myapplication打开。
+4.想要开始游戏需要先在Android studio中配置虚拟机。
+5.点击运行并稍作等待。
