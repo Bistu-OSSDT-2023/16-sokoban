@@ -13,7 +13,7 @@
 ![d271d0d5647f4182042a4804351fe74](https://github.com/Bistu-OSSDT-2023/16-sokoban/assets/137964415/d185d16f-bbc3-48a2-82f8-3f6c26264d70)
 
 
-
+如有bug，请联系2233451580@qq.com
 
 
 
